@@ -1,0 +1,19 @@
+TABL.start;
+//This marks the beginning of our program
+make proposalTable; //creating a blank table named "proposalTable"
+insert column for proposalTable type INT name "Sno" auto; 
+//Creates a column named "Sno" with integer type that auto increments as we go down
+insert column for proposalTable type STRING name "Name" default "-";
+//Creates a column named "Name" with string data type
+insert column for proposalTable type FLOAT name "Marks" default 0.00;
+//Creates a column named "Marks" with floating point data type
+insert row for proposalTable;
+//inserts a blank row with name and Mark being default values
+proposalTable.row--;
+//We are now pointing to the row before the current one
+edit row for proposalTable "name" "Sushitha";
+//Print statement for the table
+print proposalTable;
+proposalTable.row+1;
+TABL.end;
+//This marks the end of our program
