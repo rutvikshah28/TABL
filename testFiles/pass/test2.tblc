@@ -1,0 +1,12 @@
+TABL.start;
+make testTable;
+insert column for testTable type INT name "Sno" auto;
+insert column for testTable type STRING name "Name" default "-";
+insert column for testTable type FLOAT name "Marks" default 100.00;
+edit row for testTable "Name" "Rutvik" "Marks" 90.90;
+print row for testTable;
+insert row for testTable;
+edit row for testTable "Name" "Sushitha" "Marks" 89.99;
+print row for testTable;
+export table as testTable;
+TABL.end;

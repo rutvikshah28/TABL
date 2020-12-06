@@ -1,0 +1,11 @@
+TABL.start;
+make testTableFour;
+print testTableFour;
+insert column for testTableFour type INT name "Sid" auto;
+print row for testTableFour;
+edit row for testTableFour "Sid" 200396357;
+insert column for testTableFour type STRING name "Name" default "Rutvik";
+print testTableFour;
+delete column for testTableFour;
+print testTableFour;
+TABL.end;

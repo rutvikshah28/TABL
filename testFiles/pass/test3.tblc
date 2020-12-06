@@ -1,0 +1,10 @@
+TABL.start;
+import testTable.tbl as testTableThree;
+print testTableThree;
+insert column for testTableThree type INT name "Sid" default 101;
+testTableThree.row-1;
+edit row for testTableThree "Sid" 200396357;
+filter data for column "Name" to filterTest.tbl;
+sort testTableThree by "Sid";
+export table as testTableThree;
+TABL.end;

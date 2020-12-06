@@ -1,0 +1,15 @@
+TABL.start;
+import testTable.tbl as testTableFive;
+print testTableFive;
+insert column for testTableFive type INT name "Sid" auto;
+print row for testTableFive;
+testTableFive.row-1;
+edit row for testTableFive "Sid" 200396357;
+print testTableFive;
+insert row for testTableFive;
+edit row for testTableFive "Sid" 121212 "Name" "TestEditFive" "Marks" 88.88;
+print testTableFive;
+export table as testTableFive;
+delete column for testTableFive;
+print testTableFive;
+TABL.end;
