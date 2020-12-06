@@ -1,0 +1,15 @@
+TABL.start;
+import testTable.tbl as testFour;
+insert column for testTable type INT name "Sid" default 200396357;
+print testFourWrongName;
+print testFour;
+print row for testFour;
+print row "valffff" for testFour;
+print column for testFour;
+print column "vfdffd" for testFour;
+delete row for testFour;
+delete row to testFour;
+delete column for testFour;
+delete column to testFour;
+sort testFour by "thisDoesNotExist";
+TABL.end;

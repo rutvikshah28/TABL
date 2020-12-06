@@ -1,0 +1,5 @@
+TABL.start;
+make failTestThree;
+insert column for failTestThree type INT Ndddame "dfef" default "ee";
+failTestThree.column-5;
+TABL.end;

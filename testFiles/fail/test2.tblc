@@ -1,0 +1,3 @@
+TABL.start;
+import invalidFile.tbl as lalala;
+TABL.end;

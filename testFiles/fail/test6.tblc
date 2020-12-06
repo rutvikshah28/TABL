@@ -1,0 +1,5 @@
+import testTable.tbl as testFive;
+filter data for row "vsldd" to filterFail.tbl;
+edit row for testFive "Name" "Bob"
+export table as testFive.tbl;
+TABL.end;
